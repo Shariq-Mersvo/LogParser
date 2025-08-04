@@ -1,0 +1,131 @@
+SERVER USAGE STATISTICS REPORT
+===============================
+
+Generated: 2025-05-31 13:21:11
+
+OVERVIEW
+--------
+Total POST Requests: 1163
+
+ENDPOINT USAGE
+--------------
+TV Controls         :   446 requests (38.3%)
+Room Mode Changes   :   358 requests (30.8%)
+Shade Controls      :   184 requests (15.8%)
+AC Temperature      :   129 requests (11.1%)
+Cyviz TV Controls   :    43 requests (3.7%)
+/bacnet/info?roomId=4:     2 requests (0.2%)
+/workflows/trigger  :     1 requests (0.1%)
+
+DAILY USAGE
+-----------
+2025/05/14: 246 requests
+2025/05/15: 150 requests
+2025/05/16: 154 requests
+2025/05/17: 102 requests
+2025/05/18: 85 requests
+2025/05/19: 136 requests
+2025/05/20: 46 requests
+2025/05/21: 138 requests
+2025/05/22: 52 requests
+2025/05/26: 15 requests
+2025/05/27: 25 requests
+2025/05/28: 10 requests
+2025/05/29: 4 requests
+
+HOURLY USAGE (AGGREGATED)
+-------------------------
+06:00: 46 requests
+07:00: 16 requests
+08:00: 5 requests
+09:00: 47 requests
+10:00: 95 requests
+11:00: 100 requests
+12:00: 129 requests
+13:00: 227 requests
+14:00: 50 requests
+15:00: 73 requests
+16:00: 175 requests
+17:00: 110 requests
+18:00: 9 requests
+19:00: 43 requests
+21:00: 9 requests
+22:00: 26 requests
+23:00: 3 requests
+
+DETAILED DAILY BREAKDOWN
+------------------------
+
+2025/05/14:
+  TV Controls       : 206 requests
+  Room Mode Changes : 23 requests
+  Shade Controls    : 10 requests
+  Cyviz TV Controls : 5 requests
+  AC Temperature    : 2 requests
+
+2025/05/15:
+  Room Mode Changes : 76 requests
+  TV Controls       : 42 requests
+  Shade Controls    : 28 requests
+  AC Temperature    : 4 requests
+
+2025/05/16:
+  Shade Controls    : 72 requests
+  Room Mode Changes : 61 requests
+  AC Temperature    : 15 requests
+  TV Controls       : 3 requests
+  Cyviz TV Controls : 3 requests
+
+2025/05/17:
+  Cyviz TV Controls : 28 requests
+  AC Temperature    : 21 requests
+  TV Controls       : 21 requests
+  Room Mode Changes : 15 requests
+  Shade Controls    : 15 requests
+  /bacnet/info?roomId=4: 2 requests
+
+2025/05/18:
+  Room Mode Changes : 49 requests
+  AC Temperature    : 22 requests
+  TV Controls       : 8 requests
+  Shade Controls    : 6 requests
+
+2025/05/19:
+  Room Mode Changes : 59 requests
+  AC Temperature    : 51 requests
+  TV Controls       : 20 requests
+  Shade Controls    : 6 requests
+
+2025/05/20:
+  Room Mode Changes : 31 requests
+  AC Temperature    : 8 requests
+  TV Controls       : 5 requests
+  Shade Controls    : 2 requests
+
+2025/05/21:
+  TV Controls       : 115 requests
+  Room Mode Changes : 11 requests
+  Shade Controls    : 6 requests
+  AC Temperature    : 6 requests
+
+2025/05/22:
+  TV Controls       : 26 requests
+  Shade Controls    : 12 requests
+  Cyviz TV Controls : 7 requests
+  Room Mode Changes : 7 requests
+
+2025/05/26:
+  Room Mode Changes : 14 requests
+  /workflows/trigger: 1 requests
+
+2025/05/27:
+  Shade Controls    : 21 requests
+  Room Mode Changes : 4 requests
+
+2025/05/28:
+  Room Mode Changes : 6 requests
+  Shade Controls    : 4 requests
+
+2025/05/29:
+  Room Mode Changes : 2 requests
+  Shade Controls    : 2 requests

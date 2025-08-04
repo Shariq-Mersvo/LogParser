@@ -1,0 +1,15 @@
+time=2025-07-01T07:39:24.464+02:00 level=INFO msg="Server starting" time=2025-07-01T07:39:24+02:00
+time=2025-07-01T07:39:24.465+02:00 level=INFO msg="[SERVER] Loaded config."
+time=2025-07-01T07:39:24.465+02:00 level=INFO msg="[LUTRON] Lutron cache initialized"
+time=2025-07-01T07:39:24.558+02:00 level=INFO msg=[WEBSOCKET] "connection established"=true
+time=2025-07-01T07:39:29.466+02:00 level=ERROR msg="[SERVER] Failed to start Lutron routine" error="failed to connect to Lutron system: dial tcp 172.31.102.235:23: i/o timeout"
+time=2025-07-01T07:39:29.467+02:00 level=INFO msg="[BACNET] Bacnet cache initialized"
+time=2025-07-01T07:39:29.469+02:00 level=INFO msg="[BACNET] Bacnet routine started"
+time=2025-07-01T07:39:29.470+02:00 level=INFO msg="[CYVIZ] Initialized Cyviz Cache"
+time=2025-07-01T07:39:29.470+02:00 level=INFO msg="[BACNET] Read routine started"
+time=2025-07-01T07:39:29.480+02:00 level=INFO msg="[CYVIZ] Cyviz routine started" roomId=4 ip=10.10.100.1:15555
+time=2025-07-01T07:39:29.480+02:00 level=INFO msg="[CYVIZ] Read routine started" roomId=4
+time=2025-07-01T07:39:29.490+02:00 level=INFO msg="[CYVIZ] Cyviz routine started" roomId=3 ip=10.10.100.2:15555
+time=2025-07-01T07:39:29.490+02:00 level=INFO msg="[CYVIZ] Read routine started" roomId=3
+time=2025-07-01T07:39:34.477+02:00 level=ERROR msg="[BACNET] Error reading temperature" device=1050 error="failed to execute request: Get \"http://localhost:5000/GetTemperature?DeviceId=1050&Port=47809\": dial tcp [::1]:5000: connectex: No connection could be made because the target machine actively refused it."
+time=2025-07-01T07:39:39.483+02:00 level=ERROR msg="[BACNET] Error reading temperature" device=1050 error="failed to execute request: Get \"http://localhost:5000/GetTemperature?DeviceId=1050&Port=47809\": dial tcp [::1]:5000: connectex: No connection could be made because the target machine actively refused it."

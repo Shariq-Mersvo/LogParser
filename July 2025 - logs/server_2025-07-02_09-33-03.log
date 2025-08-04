@@ -1,0 +1,28 @@
+time=2025-07-02T09:33:03.343+02:00 level=INFO msg="Server starting" time=2025-07-02T09:33:03+02:00
+time=2025-07-02T09:33:03.344+02:00 level=INFO msg="[SERVER] Loaded config."
+time=2025-07-02T09:33:03.344+02:00 level=INFO msg="[LUTRON] Lutron cache initialized"
+time=2025-07-02T09:33:03.460+02:00 level=INFO msg=[WEBSOCKET] "connection established"=true
+time=2025-07-02T09:33:03.864+02:00 level=INFO msg="[LUTRON] Lutron routine started"
+time=2025-07-02T09:33:03.864+02:00 level=INFO msg="[LUTRON] Read routine started"
+time=2025-07-02T09:33:03.864+02:00 level=INFO msg="[BACNET] Bacnet cache initialized"
+time=2025-07-02T09:33:03.865+02:00 level=INFO msg="[BACNET] Bacnet routine started"
+time=2025-07-02T09:33:03.865+02:00 level=INFO msg="[CYVIZ] Initialized Cyviz Cache"
+time=2025-07-02T09:33:03.865+02:00 level=INFO msg="[BACNET] Read routine started"
+time=2025-07-02T09:33:03.876+02:00 level=INFO msg="[CYVIZ] Cyviz routine started" roomId=4 ip=10.10.100.1:15555
+time=2025-07-02T09:33:03.876+02:00 level=INFO msg="[CYVIZ] Read routine started" roomId=4
+time=2025-07-02T09:33:03.888+02:00 level=INFO msg="[CYVIZ] Cyviz routine started" roomId=3 ip=10.10.100.2:15555
+time=2025-07-02T09:33:03.888+02:00 level=INFO msg="[CYVIZ] Read routine started" roomId=3
+[GIN] 2025/07/02 - 09:33:07 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T09:33:09.457+02:00 level=INFO msg="[SERVER] Setting Cyviz target" target=0 preset=1 position=1 loadPreset=true
+time=2025-07-02T09:33:09.457+02:00 level=INFO msg="[SERVER] Sending command to Cyviz" command="load preset ExtName: \"MV11\""
+time=2025-07-02T09:33:09.957+02:00 level=INFO msg="[SERVER] Sending command to Cyviz" command="replacepipv2 1, Clickshare_1"
+[GIN] 2025/07/02 - 09:33:09 | 200 |     500.869ms |             ::1 | POST     "/cyviz/avinput"
+[GIN] 2025/07/02 - 09:33:17 | 200 |      1.4011ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T09:33:18.867+02:00 level=ERROR msg="[BACNET] Error reading temperature" device=1050 error="failed to execute request: Get \"http://localhost:5000/GetTemperature?DeviceId=1050&Port=47809\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+[GIN] 2025/07/02 - 09:33:27 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T09:33:28.868+02:00 level=ERROR msg="[BACNET] Error reading temperature" device=1050 error="failed to execute request: Get \"http://localhost:5000/GetTemperature?DeviceId=1050&Port=47809\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"
+time=2025-07-02T09:33:32.377+02:00 level=ERROR msg="[BACNET] Error reading temperature" device=1050 error="failed to execute request: Get \"http://localhost:5000/GetTemperature?DeviceId=1050&Port=47809\": read tcp [::1]:51331->[::1]:5000: wsarecv: An existing connection was forcibly closed by the remote host."
+time=2025-07-02T09:33:33.869+02:00 level=ERROR msg="[BACNET] Error reading temperature" device=1050 error="failed to execute request: Get \"http://localhost:5000/GetTemperature?DeviceId=1050&Port=47809\": dial tcp [::1]:5000: connectex: No connection could be made because the target machine actively refused it."
+[GIN] 2025/07/02 - 09:33:37 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T09:33:38.878+02:00 level=ERROR msg="[BACNET] Error reading temperature" device=1050 error="failed to execute request: Get \"http://localhost:5000/GetTemperature?DeviceId=1050&Port=47809\": dial tcp [::1]:5000: connectex: No connection could be made because the target machine actively refused it."
+time=2025-07-02T09:33:43.875+02:00 level=ERROR msg="[BACNET] Error reading temperature" device=1050 error="failed to execute request: Get \"http://localhost:5000/GetTemperature?DeviceId=1050&Port=47809\": dial tcp [::1]:5000: connectex: No connection could be made because the target machine actively refused it."

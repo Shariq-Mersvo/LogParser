@@ -1,0 +1,677 @@
+time=2025-07-02T10:22:26.361+02:00 level=INFO msg="Server starting" time=2025-07-02T10:22:26+02:00
+time=2025-07-02T10:22:26.362+02:00 level=INFO msg="[SERVER] Loaded config."
+time=2025-07-02T10:22:26.362+02:00 level=INFO msg="[LUTRON] Lutron cache initialized"
+time=2025-07-02T10:22:26.485+02:00 level=INFO msg=[WEBSOCKET] "connection established"=true
+time=2025-07-02T10:22:26.869+02:00 level=INFO msg="[LUTRON] Lutron routine started"
+time=2025-07-02T10:22:26.869+02:00 level=INFO msg="[LUTRON] Read routine started"
+time=2025-07-02T10:22:26.869+02:00 level=INFO msg="[BACNET] Bacnet cache initialized"
+time=2025-07-02T10:22:26.871+02:00 level=INFO msg="[BACNET] Bacnet routine started"
+time=2025-07-02T10:22:26.871+02:00 level=INFO msg="[BACNET] Read routine started"
+time=2025-07-02T10:22:26.871+02:00 level=INFO msg="[CYVIZ] Initialized Cyviz Cache"
+time=2025-07-02T10:22:26.878+02:00 level=INFO msg="[CYVIZ] Cyviz routine started" roomId=4 ip=10.10.100.1:15555
+time=2025-07-02T10:22:26.887+02:00 level=INFO msg="[CYVIZ] Cyviz routine started" roomId=3 ip=10.10.100.2:15555
+[GIN] 2025/07/02 - 10:22:32 | 200 |       730.2µs |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:22:34.527+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" connection established\r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:22:34.528+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line="connection established"
+time=2025-07-02T10:22:34.528+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:22:34.528+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:22:35.525+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:22:35.526+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:22:35.526+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:22:35.526+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+time=2025-07-02T10:22:41.528+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:22:41.529+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:22:41.529+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:22:42 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:22:48.534+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:22:48.535+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:22:48.536+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:22:49.536+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:22:49.536+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:22:49.537+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:22:49.537+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+[GIN] 2025/07/02 - 10:22:52 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:22:55.545+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:22:55.545+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:22:55.545+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:23:02 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:23:02.530+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:23:02.531+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:23:02.531+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:23:09.550+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:23:09.551+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:23:09.551+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:23:09.551+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:23:12 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:23:16.564+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:23:16.564+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:23:16.564+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:23:17.560+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:23:17.560+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:23:17.561+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:23:17.561+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:23:22 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:23:23.544+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:23:23.545+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:23:23.546+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:23:30.588+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:23:30.589+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:23:30.589+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:23:31.569+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:23:31.569+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:23:31.569+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:23:31.570+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+[GIN] 2025/07/02 - 10:23:32 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:23:37.464+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:23:37.464+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:23:37.465+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:23:42 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:23:44.577+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:23:44.578+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:23:44.578+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:23:51.496+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:23:51.496+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:23:51.496+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:23:51.496+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:23:52 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:23:58.502+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:23:58.503+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:23:58.503+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:23:59.498+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:23:59.499+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:23:59.499+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:23:59.500+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:24:02 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:24:05.511+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:24:05.512+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:24:05.512+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:24:12.507+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:24:12.508+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:24:12.508+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+[GIN] 2025/07/02 - 10:24:12 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:24:13.503+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:24:13.504+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:24:13.504+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:24:13.504+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+time=2025-07-02T10:24:19.515+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:24:19.516+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:24:19.517+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:24:22 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:24:26.516+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:24:26.519+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:24:26.521+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:24:32 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:24:33.533+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:24:33.533+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:24:33.533+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:24:33.534+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+time=2025-07-02T10:24:40.543+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:24:40.545+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:24:40.545+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:24:41.537+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:24:41.538+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:24:41.539+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:24:41.539+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:24:42 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:24:47.537+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:24:47.538+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:24:47.538+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:24:52 | 200 |       447.3µs |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:24:54.560+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:24:54.561+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:24:54.561+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:24:55.558+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:24:55.559+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:24:55.559+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:24:55.559+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+time=2025-07-02T10:25:01.560+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:25:01.561+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:25:01.562+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:25:02 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:25:08.568+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:25:08.568+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:25:08.568+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:25:12 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:25:15.572+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:25:15.572+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:25:15.573+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:25:15.574+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:25:22 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:25:22.583+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:25:22.584+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:25:22.584+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:25:23.583+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:25:23.585+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:25:23.585+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:25:23.585+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+time=2025-07-02T10:25:29.482+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:25:29.484+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:25:29.484+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:25:32 | 200 |     11.7195ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:25:36.485+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:25:36.485+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:25:36.486+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:25:37.487+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:25:37.488+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:25:37.489+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:25:37.490+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+[GIN] 2025/07/02 - 10:25:42 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:25:43.482+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:25:43.484+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:25:43.485+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:25:50.516+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:25:50.516+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:25:50.516+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:25:52 | 200 |      1.6795ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:25:57.517+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:25:57.517+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:25:57.518+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:25:57.518+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:26:02 | 200 |      4.2465ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:26:04.524+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:26:04.525+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:26:04.525+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:26:05.511+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:26:05.513+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:26:05.513+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:26:05.513+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+time=2025-07-02T10:26:11.505+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:26:11.506+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:26:11.506+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:26:12 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:26:18.532+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:26:18.532+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:26:18.532+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:26:19.529+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:26:19.529+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:26:19.529+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:26:19.530+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+[GIN] 2025/07/02 - 10:26:22 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:26:25.531+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:26:25.532+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:26:25.533+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:26:32 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:26:32.542+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:26:32.542+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:26:32.542+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:26:39.535+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:26:39.535+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:26:39.535+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:26:39.535+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:26:42 | 200 |      5.8391ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:26:46.553+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:26:46.553+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:26:46.554+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:26:47.557+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:26:47.558+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:26:47.558+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:26:47.558+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:26:52 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:26:53.553+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:26:53.553+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:26:53.554+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:27:00.585+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:27:00.585+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:27:00.586+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:27:01.571+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:27:01.572+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:27:01.572+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:27:01.572+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+[GIN] 2025/07/02 - 10:27:02 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:27:07.577+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:27:07.577+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:27:07.578+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:27:12 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:27:14.468+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:27:14.468+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:27:14.469+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:27:21.485+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:27:21.485+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:27:21.485+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:27:21.485+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:27:22 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:27:28.499+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:27:28.500+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:27:28.500+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:27:29.496+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:27:29.496+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:27:29.496+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:27:29.496+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:27:32 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:27:35.502+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:27:35.503+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:27:35.503+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:27:42.510+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:27:42.511+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:27:42.511+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+[GIN] 2025/07/02 - 10:27:42 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:27:43.500+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:27:43.501+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:27:43.501+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:27:43.501+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+time=2025-07-02T10:27:49.500+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:27:49.500+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:27:49.500+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:27:52 | 200 |      1.7294ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:27:56.521+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:27:56.521+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:27:56.521+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:28:02 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:28:03.514+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:28:03.515+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:28:03.516+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:28:03.516+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+time=2025-07-02T10:28:10.532+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:28:10.533+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:28:10.533+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:28:11.532+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:28:11.532+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:28:11.533+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:28:11.534+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:28:12 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:28:17.526+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:28:17.527+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:28:17.528+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:28:22 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:28:24.554+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:28:24.555+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:28:24.555+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:28:25.541+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:28:25.541+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:28:25.542+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:28:25.542+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+time=2025-07-02T10:28:31.543+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:28:31.544+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:28:31.545+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:28:32 | 200 |      1.1628ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:28:38.541+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:28:38.542+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:28:38.542+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:28:42 | 200 |      8.0915ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:28:45.569+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:28:45.570+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:28:45.570+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:28:45.570+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:28:52 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:28:52.566+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:28:52.567+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:28:52.568+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:28:53.569+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:28:53.571+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:28:53.571+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:28:53.571+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+time=2025-07-02T10:28:59.574+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:28:59.574+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:28:59.574+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:29:02 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:29:06.481+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:29:06.481+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:29:06.482+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:29:07.579+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:29:07.580+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:29:07.581+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:29:07.581+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+[GIN] 2025/07/02 - 10:29:12 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:29:13.482+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:29:13.482+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:29:13.483+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:29:20.499+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:29:20.500+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:29:20.500+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:29:22 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:29:27.491+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:29:27.492+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:29:27.492+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:29:27.492+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:29:32 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:29:34.505+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:29:34.505+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:29:34.505+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:29:35.508+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:29:35.508+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:29:35.509+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:29:35.509+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+time=2025-07-02T10:29:41.508+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:29:41.509+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:29:41.509+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:29:42 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:29:48.508+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:29:48.509+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:29:48.509+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:29:49.524+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:29:49.525+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:29:49.526+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:29:49.526+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+[GIN] 2025/07/02 - 10:29:52 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:29:55.515+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:29:55.516+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:29:55.516+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:30:02.537+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:30:02.538+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:30:02.538+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:30:02 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:30:09.548+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:30:09.548+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:30:09.548+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:30:09.548+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:30:12 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:30:16.552+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:30:16.553+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:30:16.553+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:30:17.536+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:30:17.537+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:30:17.538+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:30:17.538+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:30:22 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:30:23.546+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:30:23.546+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:30:23.547+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:30:30.566+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:30:30.568+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:30:30.569+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:30:31.555+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:30:31.556+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:30:31.556+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:30:31.556+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+[GIN] 2025/07/02 - 10:30:32 | 200 |      2.0875ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:30:37.560+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:30:37.560+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:30:37.561+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:30:42 | 200 |      6.9451ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:30:44.571+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:30:44.571+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:30:44.572+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:30:51.571+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:30:51.572+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:30:51.572+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:30:51.572+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:30:52 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:30:58.590+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:30:58.591+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:30:58.591+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:30:59.594+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:30:59.594+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:30:59.595+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:30:59.595+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:31:02 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:31:05.478+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:31:05.478+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:31:05.478+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:31:12.497+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:31:12.497+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:31:12.498+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+[GIN] 2025/07/02 - 10:31:12 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:31:13.600+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:31:13.601+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:31:13.602+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:31:13.602+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+time=2025-07-02T10:31:19.523+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:31:19.523+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:31:19.524+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:31:22 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:31:26.501+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:31:26.502+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:31:26.503+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:31:32 | 200 |      4.7209ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:31:33.512+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:31:33.512+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:31:33.513+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:31:33.513+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+time=2025-07-02T10:31:40.519+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:31:40.519+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:31:40.520+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:31:41.519+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:31:41.520+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:31:41.520+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:31:41.521+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:31:42 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:31:47.519+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:31:47.520+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:31:47.520+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:31:52 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:31:54.535+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:31:54.535+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:31:54.535+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:31:55.523+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:31:55.523+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:31:55.523+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:31:55.524+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+time=2025-07-02T10:32:01.536+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:32:01.537+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:32:01.537+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:32:02 | 200 |       509.9µs |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:32:08.535+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:32:08.536+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:32:08.536+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:32:12 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:32:15.550+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:32:15.551+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:32:15.551+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:32:15.551+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+time=2025-07-02T10:32:22.547+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:32:22.548+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:32:22.548+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+[GIN] 2025/07/02 - 10:32:22 | 200 |      2.1944ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:32:23.562+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:32:23.563+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:32:23.563+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:32:23.563+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+time=2025-07-02T10:32:29.559+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:32:29.560+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:32:29.560+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:32:32 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:32:36.574+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:32:36.574+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:32:36.574+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:32:37.576+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:32:37.577+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:32:37.577+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:32:37.577+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+[GIN] 2025/07/02 - 10:32:42 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:32:43.579+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:32:43.580+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:32:43.580+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:32:50.591+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:32:50.591+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:32:50.591+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:32:52 | 200 |      7.0029ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:32:57.479+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:32:57.480+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:32:57.480+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:32:57.480+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:33:02 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:33:04.496+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:33:04.498+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:33:04.498+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:33:05.485+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:33:05.486+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:33:05.486+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:33:05.486+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:33:09 | 200 |      4.5257ms |             ::1 | POST     "/modes"
+time=2025-07-02T10:33:09.938+02:00 level=INFO msg="[LUTRON] Reading paused for write operations"
+[GIN] 2025/07/02 - 10:33:12 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:33:13.891+02:00 level=INFO msg="[LUTRON] Reading resumed"
+time=2025-07-02T10:33:14.601+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:33:14.602+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:33:14.602+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:33:16 | 200 |            0s |             ::1 | POST     "/modes"
+time=2025-07-02T10:33:16.902+02:00 level=INFO msg="[LUTRON] Reading paused for write operations"
+[GIN] 2025/07/02 - 10:33:20 | 200 |       435.5µs |             ::1 | POST     "/modes"
+[GIN] 2025/07/02 - 10:33:22 | 200 |      2.8661ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:33:23.739+02:00 level=INFO msg="[LUTRON] Reading resumed"
+[GIN] 2025/07/02 - 10:33:24 | 200 |      2.1643ms |             ::1 | GET      "/modes?roomId=4"
+time=2025-07-02T10:33:24.416+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:33:24.416+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:33:24.416+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:33:25.422+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:33:25.423+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:33:25.423+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:33:25.424+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+time=2025-07-02T10:33:26.407+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:33:26.408+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:33:26.408+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:33:27 | 200 |            0s |             ::1 | POST     "/lutron/shades"
+time=2025-07-02T10:33:27.988+02:00 level=INFO msg="[LUTRON] Reading paused for write operations"
+time=2025-07-02T10:33:31.799+02:00 level=INFO msg="[LUTRON] Reading resumed"
+time=2025-07-02T10:33:32.519+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:33:32.520+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:33:32.521+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:33:32 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+[GIN] 2025/07/02 - 10:33:33 | 200 |      4.2645ms |             ::1 | POST     "/lutron/shades"
+time=2025-07-02T10:33:33.253+02:00 level=INFO msg="[LUTRON] Reading paused for write operations"
+[GIN] 2025/07/02 - 10:33:34 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+[GIN] 2025/07/02 - 10:33:36 | 200 |            0s |             ::1 | POST     "/lutron/shades"
+time=2025-07-02T10:33:39.912+02:00 level=INFO msg="[LUTRON] Reading resumed"
+time=2025-07-02T10:33:40.525+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:33:40.526+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:33:40.526+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:33:40.526+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:33:42 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+[GIN] 2025/07/02 - 10:33:43 | 200 |            0s |             ::1 | POST     "/lutron/shades"
+time=2025-07-02T10:33:43.000+02:00 level=INFO msg="[LUTRON] Reading paused for write operations"
+[GIN] 2025/07/02 - 10:33:44 | 200 |      4.8712ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:33:46.833+02:00 level=INFO msg="[LUTRON] Reading resumed"
+time=2025-07-02T10:33:47.544+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:33:47.544+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:33:47.544+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:33:48.530+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:33:48.531+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:33:48.531+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:33:48.532+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:33:52 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:33:53.536+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:33:53.537+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:33:53.537+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:33:54 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:34:00.550+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:34:00.550+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:34:00.550+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:34:01.554+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:34:01.555+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:34:01.555+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:34:01.555+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+[GIN] 2025/07/02 - 10:34:02 | 200 |      5.1156ms |             ::1 | GET      "/bacnet/info?roomId=4"
+[GIN] 2025/07/02 - 10:34:04 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:34:07.544+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:34:07.544+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:34:07.545+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:34:12 | 200 |            0s |             ::1 | GET      "/modes?roomId=4"
+[GIN] 2025/07/02 - 10:34:12 | 200 |      1.5419ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:34:14.571+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:34:14.571+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:34:14.572+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:34:21.561+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:34:21.561+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:34:21.562+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:34:21.562+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:34:22 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:34:28.559+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:34:28.560+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,0
+time=2025-07-02T10:34:28.560+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+[GIN] 2025/07/02 - 10:34:29 | 200 |    2.0135784s |             ::1 | POST     "/bacnet/info"
+[GIN] 2025/07/02 - 10:34:29 | 200 |      6.3381ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:34:29.571+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,86,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:34:29.572+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,86,9,1
+time=2025-07-02T10:34:29.572+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:34:29.573+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:34:30 | 200 |            0s |             ::1 | POST     "/modes"
+time=2025-07-02T10:34:30.036+02:00 level=INFO msg="[LUTRON] Reading paused for write operations"
+[GIN] 2025/07/02 - 10:34:32 | 200 |       7.283ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:34:33.893+02:00 level=INFO msg="[LUTRON] Reading resumed"
+time=2025-07-02T10:34:35.581+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:34:35.582+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:34:35.582+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:34:42.588+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:34:42.588+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:34:42.589+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+[GIN] 2025/07/02 - 10:34:42 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:34:43.590+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:34:43.590+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:34:43.591+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:34:43.592+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+time=2025-07-02T10:34:49.583+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:34:49.584+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:34:49.584+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:34:51 | 200 |    2.0141944s |             ::1 | POST     "/bacnet/info"
+[GIN] 2025/07/02 - 10:34:51 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+[GIN] 2025/07/02 - 10:34:52 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:34:56.487+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:34:56.487+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:34:56.488+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:35:02 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:35:03.592+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:35:03.593+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:35:03.593+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:35:03.593+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+[GIN] 2025/07/02 - 10:35:06 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+[GIN] 2025/07/02 - 10:35:08 | 200 |    2.0159504s |             ::1 | POST     "/bacnet/info"
+time=2025-07-02T10:35:10.501+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:35:10.502+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,1
+time=2025-07-02T10:35:10.502+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:35:10.502+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:35:12 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+[GIN] 2025/07/02 - 10:35:13 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:35:17.502+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:35:17.502+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:35:17.503+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:35:17 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+[GIN] 2025/07/02 - 10:35:19 | 200 |    2.0125366s |             ::1 | POST     "/bacnet/info"
+[GIN] 2025/07/02 - 10:35:22 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:35:24.526+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:35:24.527+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:35:24.527+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+[GIN] 2025/07/02 - 10:35:24 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:35:25.522+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:35:25.523+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:35:25.524+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:35:25.524+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+[GIN] 2025/07/02 - 10:35:28 | 200 |    2.0154183s |             ::1 | POST     "/bacnet/info"
+[GIN] 2025/07/02 - 10:35:28 | 200 |      1.0283ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:35:31.516+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:35:31.516+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:35:31.516+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:35:32 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:35:38.525+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:35:38.525+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:35:38.525+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:35:42 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:35:45.534+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:35:45.535+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:35:45.536+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:35:45.536+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1
+time=2025-07-02T10:35:52.550+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,4,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:35:52.550+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,4,81,9,1
+time=2025-07-02T10:35:52.550+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:35:52.550+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=4 value=1
+[GIN] 2025/07/02 - 10:35:52 | 200 |      2.8316ms |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:35:55.506+02:00 level=INFO msg="[IPTV] Attempting request" url="http://192.168.1.79:8080/remoteControl/cmd?key=116&mode=0&operation=1"
+[GIN] 2025/07/02 - 10:35:55 | 200 |    197.5417ms |             ::1 | POST     "/iptv"
+time=2025-07-02T10:35:59.558+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,7,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:35:59.559+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,7,6,1
+time=2025-07-02T10:35:59.560+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:36:02 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:36:06.550+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,81,9,0\r\n\r\nQNET>"
+time=2025-07-02T10:36:06.551+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,81,9,0
+time=2025-07-02T10:36:06.551+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=0
+time=2025-07-02T10:36:07.553+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,3,84,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:36:07.556+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,3,84,9,1
+time=2025-07-02T10:36:07.556+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:36:07.557+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=3 value=1
+time=2025-07-02T10:36:12.079+02:00 level=INFO msg="[IPTV] Attempting request" url="http://192.168.1.79:8080/remoteControl/cmd?key=116&mode=0&operation=1"
+[GIN] 2025/07/02 - 10:36:12 | 200 |    100.4944ms |             ::1 | POST     "/iptv"
+[GIN] 2025/07/02 - 10:36:12 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:36:13.561+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,6,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:36:13.562+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,6,6,1
+time=2025-07-02T10:36:13.562+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:36:15.769+02:00 level=INFO msg="[IPTV] Attempting request" url="http://192.168.1.79:8080/remoteControl/cmd?key=116&mode=0&operation=1"
+[GIN] 2025/07/02 - 10:36:15 | 200 |    108.7883ms |             ::1 | POST     "/iptv"
+time=2025-07-02T10:36:16.914+02:00 level=INFO msg="[IPTV] Attempting request" url="http://192.168.1.79:8080/remoteControl/cmd?key=116&mode=0&operation=1"
+[GIN] 2025/07/02 - 10:36:17 | 200 |    105.7411ms |             ::1 | POST     "/iptv"
+time=2025-07-02T10:36:20.573+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~AREA,5,6,1\r\n\r\nQNET>"
+time=2025-07-02T10:36:20.574+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~AREA,5,6,1
+time=2025-07-02T10:36:20.574+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+[GIN] 2025/07/02 - 10:36:22 | 200 |            0s |             ::1 | GET      "/bacnet/info?roomId=4"
+time=2025-07-02T10:36:27.573+02:00 level=INFO msg="[LUTRON-READ] Parsing response" response=" \r\n~DEVICE,2,81,9,1\r\n\r\nQNET>"
+time=2025-07-02T10:36:27.574+02:00 level=INFO msg="[LUTRON-READ] Parsing line" line=~DEVICE,2,81,9,1
+time=2025-07-02T10:36:27.575+02:00 level=INFO msg="[LUTRON-READ] Parsing value" value=1
+time=2025-07-02T10:36:27.575+02:00 level=INFO msg="[LUTRON-READ] Updating cache" roomId=2 value=1

@@ -1,0 +1,138 @@
+SERVER USAGE STATISTICS REPORT
+===============================
+
+Generated: 2025-07-30 10:59:51
+
+OVERVIEW
+--------
+Total POST Requests: 518
+
+ENDPOINT USAGE
+--------------
+Shade Controls      :   137 requests (26.4%)
+TV Controls         :   114 requests (22.0%)
+Room Mode Changes   :   114 requests (22.0%)
+Cyviz TV Controls   :   114 requests (22.0%)
+AC Temperature      :    39 requests (7.5%)
+
+DAILY USAGE
+-----------
+2025/07/01: 107 requests
+2025/07/02: 215 requests
+2025/07/03: 2 requests
+2025/07/08: 23 requests
+2025/07/09: 24 requests
+2025/07/10: 4 requests
+2025/07/11: 5 requests
+2025/07/13: 8 requests
+2025/07/15: 1 requests
+2025/07/16: 14 requests
+2025/07/17: 34 requests
+2025/07/18: 13 requests
+2025/07/21: 15 requests
+2025/07/22: 4 requests
+2025/07/23: 16 requests
+2025/07/24: 9 requests
+2025/07/25: 16 requests
+2025/07/28: 4 requests
+2025/07/29: 4 requests
+
+HOURLY USAGE (AGGREGATED)
+-------------------------
+07:00: 9 requests
+08:00: 27 requests
+09:00: 40 requests
+10:00: 164 requests
+11:00: 68 requests
+12:00: 89 requests
+13:00: 10 requests
+14:00: 65 requests
+15:00: 33 requests
+16:00: 9 requests
+17:00: 2 requests
+18:00: 2 requests
+
+DETAILED DAILY BREAKDOWN
+------------------------
+
+2025/07/01:
+  TV Controls       : 41 requests
+  Room Mode Changes : 33 requests
+  Cyviz TV Controls : 17 requests
+  Shade Controls    : 9 requests
+  AC Temperature    : 7 requests
+
+2025/07/02:
+  Cyviz TV Controls : 97 requests
+  TV Controls       : 54 requests
+  Room Mode Changes : 31 requests
+  Shade Controls    : 19 requests
+  AC Temperature    : 14 requests
+
+2025/07/03:
+  AC Temperature    : 2 requests
+
+2025/07/08:
+  Shade Controls    : 11 requests
+  Room Mode Changes : 11 requests
+  AC Temperature    : 1 requests
+
+2025/07/09:
+  Shade Controls    : 18 requests
+  Room Mode Changes : 6 requests
+
+2025/07/10:
+  Shade Controls    : 4 requests
+
+2025/07/11:
+  Shade Controls    : 3 requests
+  Room Mode Changes : 2 requests
+
+2025/07/13:
+  Shade Controls    : 5 requests
+  Room Mode Changes : 3 requests
+
+2025/07/15:
+  Room Mode Changes : 1 requests
+
+2025/07/16:
+  AC Temperature    : 7 requests
+  Room Mode Changes : 4 requests
+  Shade Controls    : 3 requests
+
+2025/07/17:
+  TV Controls       : 19 requests
+  Shade Controls    : 10 requests
+  Room Mode Changes : 5 requests
+
+2025/07/18:
+  Shade Controls    : 7 requests
+  AC Temperature    : 6 requests
+
+2025/07/21:
+  Shade Controls    : 8 requests
+  Room Mode Changes : 7 requests
+
+2025/07/22:
+  Shade Controls    : 2 requests
+  Room Mode Changes : 2 requests
+
+2025/07/23:
+  Shade Controls    : 14 requests
+  Room Mode Changes : 2 requests
+
+2025/07/24:
+  Shade Controls    : 7 requests
+  Room Mode Changes : 2 requests
+
+2025/07/25:
+  Shade Controls    : 10 requests
+  Room Mode Changes : 4 requests
+  AC Temperature    : 2 requests
+
+2025/07/28:
+  Shade Controls    : 4 requests
+
+2025/07/29:
+  Shade Controls    : 3 requests
+  Room Mode Changes : 1 requests

@@ -1,0 +1,13 @@
+time=2025-07-09T06:34:28.638+02:00 level=INFO msg="Server starting" time=2025-07-09T06:34:28+02:00
+time=2025-07-09T06:34:28.638+02:00 level=INFO msg="[SERVER] Loaded config."
+time=2025-07-09T06:34:28.638+02:00 level=INFO msg="[LUTRON] Lutron cache initialized"
+time=2025-07-09T06:34:28.688+02:00 level=INFO msg=[WEBSOCKET] "connection established"=true
+time=2025-07-09T06:34:29.156+02:00 level=INFO msg="[LUTRON] Lutron routine started"
+time=2025-07-09T06:34:29.156+02:00 level=INFO msg="[BACNET] Bacnet cache initialized"
+time=2025-07-09T06:34:29.158+02:00 level=INFO msg="[BACNET] Bacnet routine started"
+time=2025-07-09T06:34:29.156+02:00 level=INFO msg="[LUTRON] Read routine started"
+time=2025-07-09T06:34:29.158+02:00 level=INFO msg="[BACNET] Read routine started"
+time=2025-07-09T06:34:29.159+02:00 level=INFO msg="[CYVIZ] Initialized Cyviz Cache"
+time=2025-07-09T06:34:29.173+02:00 level=INFO msg="[CYVIZ] Cyviz routine started" roomId=4 ip=10.10.100.1:15555
+time=2025-07-09T06:34:29.185+02:00 level=INFO msg="[CYVIZ] Cyviz routine started" roomId=3 ip=10.10.100.2:15555
+time=2025-07-09T06:34:29.189+02:00 level=INFO msg="Couldn't connect to database/setup databasedial tcp [::1]:5433: connectex: No connection could be made because the target machine actively refused it."

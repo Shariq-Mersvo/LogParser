@@ -1,0 +1,15 @@
+time=2025-07-09T10:44:50.864+02:00 level=INFO msg="Server starting" time=2025-07-09T10:44:50+02:00
+time=2025-07-09T10:44:50.864+02:00 level=INFO msg="[SERVER] Loaded config."
+time=2025-07-09T10:44:50.864+02:00 level=INFO msg="[LUTRON] Lutron cache initialized"
+time=2025-07-09T10:44:50.937+02:00 level=INFO msg=[WEBSOCKET] "connection established"=true
+time=2025-07-09T10:44:51.370+02:00 level=INFO msg="[LUTRON] Lutron routine started"
+time=2025-07-09T10:44:51.370+02:00 level=INFO msg="[BACNET] Bacnet cache initialized"
+time=2025-07-09T10:44:51.372+02:00 level=INFO msg="[BACNET] Bacnet routine started"
+time=2025-07-09T10:44:51.370+02:00 level=INFO msg="[LUTRON] Read routine started"
+time=2025-07-09T10:44:51.372+02:00 level=INFO msg="[BACNET] Read routine started"
+time=2025-07-09T10:44:51.374+02:00 level=INFO msg="[CYVIZ] Initialized Cyviz Cache"
+time=2025-07-09T10:44:51.393+02:00 level=INFO msg="[CYVIZ] Cyviz routine started" roomId=4 ip=10.10.100.1:15555
+time=2025-07-09T10:44:51.398+02:00 level=INFO msg="[CYVIZ] Cyviz routine started" roomId=3 ip=10.10.100.2:15555
+[GIN] 2025/07/09 - 10:44:51 | 200 |       527.5µs |       127.0.0.1 | GET      "/bacnet/info?roomId=4"
+[GIN] 2025/07/09 - 10:44:58 | 200 |            0s |       127.0.0.1 | GET      "/bacnet/info?roomId=4"
+[GIN] 2025/07/09 - 10:45:08 | 200 |            0s |       127.0.0.1 | GET      "/bacnet/info?roomId=4"
